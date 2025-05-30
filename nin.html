@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National ID</title>
+    <style>
+        body{
+            background-color: #fff;
+        }
+        .bn {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .table {
+            width: 1000px;
+            border-collapse: collapse;
+            margin: auto;
+            border: 2px solid black;
+        }
+        .table td, .table th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        td.photo {
+            padding: 0;
+            width: 13%; 
+            background:#d6d6d6;
+        }
+
+        td.photo img {
+            width: 100%;
+            height: 140%;
+            object-fit: cover;  /* Ensures the image covers the whole td without distortion */
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            width: 60px;
+            height: 60px;
+        }
+        .first_header{
+            display: block;
+            font-size: 1.5em;
+            margin-block-start: -0.1em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            unicode-bidi: isolate;
+        }
+        .second_header{
+            display: block;
+            font-size: 1.3em;
+            margin-block-start: -0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            unicode-bidi: isolate;
+        }
+        .third_header{
+            display: block;
+            font-size: 1.0em;
+            margin-block-start: -0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            unicode-bidi: isolate;
+        }
+        .sub-title{
+            display: block;
+            margin-block-start: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+        }
+        .add-title{
+            font-size:13px;
+            flex-grow: 1;
+            
+        }
+        .address{
+              display: flex;
+            flex-direction: column;
+            margin-bottom: 67px;
+        }
+        .state {
+            margin-bottom:-1px;
+            font-size:12px;
+        }
+        .lable-title{
+            font-size:14px
+        }
+        td {
+    justify-content: space-between;  /* Distribute space between label and content */
+    align-items: center;  /* Vertically align label and content */
+}
+
+    </style>
+</head>
+<body>
+    <div class="bn">
+        <table class="table" style="border-bottom: none;">
+            <tr>
+                <th colspan="5">
+                    <div class="header">
+                        <img src="./coat.png" alt="Left Logo">
+                        <div style="text-align: center;">
+                            
+                            <span class="first_header">National Identity Management System</span>
+                            <span class="second_header">Federal Republic of Nigeria</span>
+                            <span class="third_header">National Identification Number Slip (NINS)</span>
+                        </div>
+                        <img src="./nin-logo.png" alt="Right Logo">
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <td style="width:30%"><strong class="lable-title">Tracking ID:</strong><span class="add-title" style="margin-left: 20px;">S7Y0OG2T5000GX6</span> </td>
+                <td><strong class="lable-title">Surname:</strong><span class="add-title" style="margin-left: 30px;">AKPELE</span> </td>
+                <td rowspan="4"  style="width:30%;"><strong class="address lable-title">Address:</strong>
+                    <span class="add-title" >20 CAMBRIDGE HOUSE JOOP BERKHOUT CRESCENT ONIREKE <p class="state">IBADAN <br/>OYO</p></span>
+                </td>
+                
+                <td rowspan="4" class="photo" style="width:13%">
+                    <img src="./mi.PNG" alt="User Photo">
+                </td>
+            </tr>
+            <tr>
+                <td><strong class="lable-title">NIN:</strong> <span class="add-title" style="margin-left: 70px;">17575585738</span></td>
+                <td><strong class="lable-title">First Name:</strong> <span class="add-title" style="margin-left: 20px;">DAVID</span></td>
+            </tr>
+            <tr>
+                <td><strong class="lable-title">Date of Birth:</strong> <span class="add-title" style="margin-left: 10px;">27 Sep 1999</span></td>
+                <td><strong class="lable-title">Middle Name:</strong><span class="add-title" style="margin-left: 20px;"></span> </td>
+            </tr>
+            <tr>
+                <td><strong class="lable-title">Issue Date:</strong><span class="add-title" style="margin-left: 20px;">08 Oct 2019</span> </td>
+                <td><strong class="lable-title">Gender:</strong><span class="add-title" style="margin-left: 60px;">M</span> </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <span><strong>Note:</strong> The <strong style="font-size:14px"><i>National Identification Number (NIN)</i></strong> <span style="font-size:14px">is your identity. It is confidential and may only be released for legitimate transactions.</span> </span>
+                    <span class="sub-title">You will be notified when your National Identity Card is ready. For any enquiries, please contact:</span>
+                </td>
+            </tr>
+        
+        </table >
+        <table  class="table" style="border-top: none; text-align:center">
+            <tr>
+                <td style="width:10%; text-align: center; vertical-align: middle;">
+                    <strong class="foot-title">
+                        <img src="./cloud.png" alt="User Photo" width="15px">
+                        helpdesk@ninc.gov.ng
+                    </strong>
+                </td>
+                <td style="text-align: center; vertical-align: middle;"><strong class="lable-title">
+                    <img src="./explorer.svg" alt="User Photo" width="25px"><br/>www.nimc.gov.ng</strong></td>
+                <td style="text-align: center; vertical-align: middle;"><strong class="lable-title"> <img src="./call.png" alt="User Photo" width="15px"><br/>0700-CALL-NIMNC<br/>(0700-2255-646)</strong></td>
+                <td style="text-align: center; vertical-align: middle;"><strong class="lable-title"><img src="./file.png" alt="User Photo" width="15px" height="15px"><br/>National Identity Management Commission</strong> </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
